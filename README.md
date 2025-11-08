@@ -1,4 +1,3 @@
-![logo](https://github.com/AlSabriBhuiyan0/alsabribhuiyan0/blob/main/cover.jpg)
 <h1 align="center">Hi 👋, I'm Al Sabri Bhuiyan</h1>
 <h3 align="center">"Data Analyst & Web Developer|Turning data into insights and Code into Solutions"</h3>
 <h4 align="center">I'm a Data Analyst and Web Developer with a passion for turning complex data into actionable insights and building user-friendly, efficient web applications. With 3 years of experience in both fields, I bring a unique combination of analytical thinking and technical expertise. My goal is to create value by leveraging data and technology to solve real-world problems.</h4>
