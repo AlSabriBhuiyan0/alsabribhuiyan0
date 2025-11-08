@@ -17,7 +17,7 @@
 
 - 💬 Ask me about **Data Science**
 
-- 📫 How to reach me **sabri.bhuiyan@northsouth.edu**
+- 📫 How to reach me **Contact@alsabribhuiyan.xyz**
 
 - 📄 Know about my experiences [www.alsabribhuiyan.xyz](www.alsabribhuiyan.xyz)
 
