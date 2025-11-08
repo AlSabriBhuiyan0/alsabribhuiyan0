@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **Sentimmental Analysis**
 
-- 👨‍💻 All of my projects are available at [www.alsunny.live](www.alsunny.live)
+- 👨‍💻 All of my projects are available at [www.alsabribhuiyan.xyz](www.alsabribhuiyan.xyz)
 
 - 📝 I regularly write articles on [https://medium.com/@alsabribhuiyan](https://medium.com/@alsabribhuiyan)
 
@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **sabri.bhuiyan@northsouth.edu**
 
-- 📄 Know about my experiences [www.alsunny.live](www.alsunny.live)
+- 📄 Know about my experiences [www.alsabribhuiyan.xyz](www.alsabribhuiyan.xyz)
 
 - ⚡ Fun fact **I want to know more**
 
