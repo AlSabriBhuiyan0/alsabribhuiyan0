@@ -23,6 +23,32 @@
 
 - ⚡ Fun fact **I want to know more**
 
+---
+
+## 🏢 Ryofin — Business Management System
+
+**Ryofin** is an integrated business management system (ERP/POS) designed to help small and medium-sized businesses streamline their daily operations through four core modules:
+
+| Module | Description |
+|--------|-------------|
+| 📦 **Product Management** | Manage your product catalog — add, update, and organize products with pricing, categories, and descriptions. |
+| 🛒 **Purchase Management** | Track supplier orders, manage incoming stock, record purchase costs, and maintain supplier relationships. |
+| 💰 **Sales Management** | Process customer transactions, generate invoices, monitor revenue, and track order history in real time. |
+| 🔄 **Stock Adjustments** | Keep inventory accurate by recording manual adjustments, write-offs, and stock corrections across all products. |
+
+### ✅ How Ryofin Benefits You
+
+- **Centralized Control** — Manage products, purchases, sales, and inventory all from a single platform, eliminating the need for multiple disconnected tools.
+- **Real-Time Inventory Visibility** — Always know your current stock levels, reducing the risk of overstocking or stockouts.
+- **Accurate Financial Tracking** — Monitor purchase costs and sales revenue side-by-side to understand profit margins clearly.
+- **Time Savings** — Automate repetitive data-entry tasks, freeing up time to focus on growing your business.
+- **Error Reduction** — Structured stock adjustment workflows reduce human error and ensure inventory records stay accurate.
+- **Scalability** — Whether you run a small shop or a growing enterprise, Ryofin's modular design grows with your business.
+
+> 💡 *Ryofin turns complex business operations into simple, manageable workflows — helping business owners make better decisions faster.*
+
+---
+
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
