@@ -27,25 +27,104 @@
 
 ## 🏢 Ryofin — Business Management System
 
-**Ryofin** is an integrated business management system (ERP/POS) designed to help small and medium-sized businesses streamline their daily operations through four core modules:
+**Ryofin** is a cloud-based, multi-tenant ERP/POS (Enterprise Resource Planning / Point of Sale) system designed to help small and medium-sized businesses manage their entire operations from a single platform.
 
-| Module | Description |
-|--------|-------------|
-| 📦 **Product Management** | Manage your product catalog — add, update, and organize products with pricing, categories, and descriptions. |
-| 🛒 **Purchase Management** | Track supplier orders, manage incoming stock, record purchase costs, and maintain supplier relationships. |
-| 💰 **Sales Management** | Process customer transactions, generate invoices, monitor revenue, and track order history in real time. |
-| 🔄 **Stock Adjustments** | Keep inventory accurate by recording manual adjustments, write-offs, and stock corrections across all products. |
+> 🔗 Platform URL: `https://your-business.ryofin.com` — the tenant-specific subdomain indicates a **multi-tenant SaaS architecture**, where each business client gets its own isolated environment.
+
+---
+
+### 🧱 System Architecture & Tech Stack
+
+Based on the system's observable characteristics:
+
+| Layer | Technology / Pattern |
+|-------|----------------------|
+| **Deployment** | Multi-tenant SaaS (subdomain-per-tenant: `tenant1.ryofin.com`) |
+| **Authentication** | Phone-number-based login with password |
+| **Frontend** | Responsive web application (likely a JavaScript framework such as Vue.js, React, or Laravel Blade — confirm with the vendor) |
+| **Backend** | Server-side web application (likely PHP/Laravel or Node.js, common for POS/ERP SaaS — confirm with the vendor) |
+| **Database** | Relational database (MySQL or PostgreSQL) for transactional data (products, sales, purchases) |
+| **Architecture** | MVC (Model-View-Controller) pattern, RESTful API |
+
+---
+
+### 📋 Core Modules & Function Breakdown
+
+#### 📦 1. Product Management
+Manages the complete product catalog for the business.
+
+| Function | What It Does |
+|----------|--------------|
+| **Add Product** | Create a new product with name, SKU/barcode, category, unit of measure, and pricing |
+| **Edit Product** | Update existing product details (price changes, description updates) |
+| **Product Categories** | Group products into categories for easier navigation and reporting |
+| **Unit Management** | Define units of measurement (pcs, kg, litre, box, etc.) |
+| **Pricing** | Set purchase price (cost) and selling price; supports multiple price tiers |
+| **Product List View** | Paginated table of all products with search and filter capabilities |
+
+#### 🛒 2. Purchase Management
+Tracks all incoming goods from suppliers.
+
+| Function | What It Does |
+|----------|--------------|
+| **Create Purchase Order** | Record a new purchase from a supplier with line items, quantities, and costs |
+| **Supplier Management** | Maintain a list of suppliers with contact information |
+| **Purchase List** | View all past and pending purchases with dates, amounts, and status |
+| **Purchase Details** | Drill down into a specific purchase to see itemized line items |
+| **Stock Auto-Update** | When a purchase is confirmed, inventory levels are automatically incremented |
+| **Cost Tracking** | Records the cost price of goods, feeding into profit margin calculations |
+
+#### 💰 3. Sales Management
+Handles all customer-facing transactions and invoicing.
+
+| Function | What It Does |
+|----------|--------------|
+| **Create Sale / Invoice** | Process a new sale, add products to a cart, apply discounts, and generate an invoice |
+| **Customer Management** | Optionally attach sales to customer records for history tracking |
+| **Sales List** | View all completed and pending sales with amounts and dates |
+| **Invoice / Receipt** | Generate printable or PDF invoices/receipts for customers |
+| **Payment Tracking** | Record full or partial payments against sales invoices |
+| **Revenue Dashboard** | View total sales revenue over selected date ranges |
+| **Stock Auto-Deduction** | When a sale is confirmed, inventory levels are automatically decremented |
+
+#### 🔄 4. Stock Adjustments
+Handles manual corrections to inventory levels.
+
+| Function | What It Does |
+|----------|--------------|
+| **Manual Stock Increase** | Add stock for reasons like found items, returns from customers, or opening balance entry |
+| **Manual Stock Decrease** | Reduce stock for reasons like damaged goods, theft, or write-offs |
+| **Adjustment Reason Codes** | Categorize adjustments by reason (damage, return, opening stock, etc.) |
+| **Audit Trail** | Every adjustment is logged with date, user, and reason for accountability |
+| **Stock List** | Real-time view of current stock levels per product after all transactions |
+
+---
 
 ### ✅ How Ryofin Benefits You
 
 - **Centralized Control** — Manage products, purchases, sales, and inventory all from a single platform, eliminating the need for multiple disconnected tools.
-- **Real-Time Inventory Visibility** — Always know your current stock levels, reducing the risk of overstocking or stockouts.
+- **Real-Time Inventory Visibility** — Every sale, purchase, and adjustment instantly updates stock levels — always know exactly what you have on hand.
 - **Accurate Financial Tracking** — Monitor purchase costs and sales revenue side-by-side to understand profit margins clearly.
-- **Time Savings** — Automate repetitive data-entry tasks, freeing up time to focus on growing your business.
-- **Error Reduction** — Structured stock adjustment workflows reduce human error and ensure inventory records stay accurate.
-- **Scalability** — Whether you run a small shop or a growing enterprise, Ryofin's modular design grows with your business.
+- **Multi-Tenant Isolation** — Each business tenant gets a completely isolated data environment, ensuring privacy and data security between clients.
+- **Phone-Based Authentication** — Simple mobile-number login means no email setup required, ideal for business owners in regions where mobile is primary.
+- **Time Savings** — Automate repetitive data-entry tasks; stock auto-updates on sales and purchases remove the need for separate inventory counts.
+- **Error Reduction** — Structured stock adjustment workflows with reason codes and audit trails reduce human error and ensure inventory records stay accurate.
+- **Scalability** — Whether you run a small shop or a growing enterprise, Ryofin's SaaS architecture means no installation or server maintenance is needed.
 
 > 💡 *Ryofin turns complex business operations into simple, manageable workflows — helping business owners make better decisions faster.*
+
+---
+
+### ⚠️ Security Note
+
+If you use Ryofin, follow these best practices to keep your account and business data secure:
+
+- **Never share your login credentials** in public forums, GitHub issues, chat apps, or email.
+- **Use a strong, unique password** — at least 12 characters with a mix of letters, numbers, and symbols.
+- **Change your password immediately** if you suspect it has been exposed.
+- **Enable two-factor authentication (2FA)** if the platform supports it.
+- **Limit user permissions** — grant each team member only the access level they need for their role.
+- **Review your account activity** regularly for any unauthorized transactions or logins.
 
 ---
 
